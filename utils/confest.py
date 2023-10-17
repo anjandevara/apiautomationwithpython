@@ -1,6 +1,6 @@
 from utils.payloads import *
 
-baseUrl = "https://api.qa.fleet.lynx.carrier.io/coa/v1/api/core2"
+baseUrl = ""
 
 endpoints = {
     "sourcelatestdata": "/sourcelatestdata?sourceType=Container",
@@ -13,7 +13,7 @@ payload = {
 
 }
 headers = {
-    'x-lynx-api-key': 'f8lQTkrHSc9gOddAGqbk2e4Kuw448AMQfHtKI0Uzy6jja7Nq',
-    # 'Authorization': 'Basic YWtpbC5qYWxpc2F0Z2lAY2Fycmllci5jb206Q2FycmllckAxMjM='
+    'x-lynx-api-key': '',
+    # 'Authorization': ''
 
 }
